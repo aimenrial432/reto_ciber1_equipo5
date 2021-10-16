@@ -1,0 +1,45 @@
+Tarjeta Internacional
+consulta para cambiar (http://10.122.27.162:4000/enablecard4/user1/INTERNATIONAL)
+Activa o cambia a tarjeta internacional 
+
+Para consultar datos el link cambia (http://10.122.27.162:4000/infocards4/user1)
+
+Al desencriptar el json resultante es el siguiente en el caso de haber activado la tarjeta internacional.
+
+{
+	"lastactive_eur":"2019-12-06T23:00:00.000Z",
+	"lastactive_int":"2020-02-25T23:00:00.000Z",
+	"card_europe":"5500 0000 0000 0004",
+	"card_international":"3400 0000 0000 009",
+	"current_card":"INTERNATIONAL"
+}
+
+
+Tarjeta Europea 
+consulta para cambiar (http://10.122.27.162:4000/enablecard4/user1/EUROPE)
+Activa o cambia a tarjeta europea
+
+Para consultar datos el link cambia (http://10.122.27.162:4000/infocards4/user1)
+
+Al desencriptar el json resultante es el siguiente en el caso de haber activado la tarjeta europea.
+
+{
+"lastactive_eur":"2021-10-08T10:53:06.881Z",
+"lastactive_int":"2021-10-08T10:53:20.486Z",
+"card_europe":"5500 0000 0000 0004",
+"card_international":"3400 0000 0000 009",
+"current_card":"EUROPE"
+}
+
+
+Para desencriptar el resultado de la consulta (https://www.devglan.com/online-tools/aes-encryption-decryption)
+Contraseña/clave para desencriptar: KeyMustBe16ByteOR24ByteOR32ByT4!
+
+Pasos:
+
+1-Se hace la consulta (infocards) desde navegador o cmd (comando curl)
+2-Si se desea cambiar tipo de tarjeta se usa la consulta de (enablecards) y despues el infocards
+3-Se copia y se pega el resultado en el programa para desencryptar con la clave
+4-Pasarlo a texto plano en el programa (boton decode to text plain)
+5-El resultado a de ser como lo de arriba
+
