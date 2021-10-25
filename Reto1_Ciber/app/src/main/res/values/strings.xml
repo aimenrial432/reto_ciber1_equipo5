@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Gestion_Gastos_Beta</string>
+    <string name="app_name">Proyecto1 (GIIF)</string>
+    <string name="title_activity_main_pantalla3">MainActivityPantalla3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nombre de Usuario</string>
+    <string name="nav_header_subtitle">Nombre.usuario@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_ajustes">Ajustes</string>
+
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_gastos">Gastos</string>
+    <string name="menu_historial">Historial</string>
 </resources>

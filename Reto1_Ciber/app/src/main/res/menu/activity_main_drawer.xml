@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Perfil"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_perfil" />
+        <item
+            android:id="@+id/nav_Gastos"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/menu_gastos" />
+        <item
+            android:id="@+id/nav_Historial"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/menu_historial" />
+    </group>
+</menu>

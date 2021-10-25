@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/Perfil_Copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2021 Empresa GIIF. Todos los derechos reservados."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <ImageView
+        android:id="@+id/Perfil_Logo"
+        android:layout_width="126dp"
+        android:layout_height="65dp"
+        android:src="@drawable/screenshot_3"
+        tools:layout_editor_absoluteX="284dp" />
+
+    <TextView
+        android:id="@+id/Perfil_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/Perfil_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Apellido"
+        app:layout_constraintBottom_toTopOf="@+id/Perfil_Apellido"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <TextView
+        android:id="@+id/Perfil_nombreuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de Usuario"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <ImageView
+        android:id="@+id/Perfil_Imagen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/_5vbfs9bhr901" />
+
+    <TextView
+        android:id="@+id/Perfil_dni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="15dp"
+        android:text="D.N.I"
+        app:layout_constraintBottom_toTopOf="@+id/Perfil_DNI"
+        app:layout_constraintTop_toTopOf="@+id/Perfil_Apellido"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <Button
+        android:id="@+id/Perfil_CerrarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <EditText
+        android:id="@+id/Perfil_Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <EditText
+        android:id="@+id/Perfil_Apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Apellido"
+        app:layout_constraintBottom_toTopOf="@+id/Perfil_DNI"
+        app:layout_constraintTop_toBottomOf="@+id/Perfil_Nombre"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <EditText
+        android:id="@+id/Perfil_DNI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DNI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <EditText
+        android:id="@+id/Perfil_NombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre de Usuario"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="149dp"
+        android:layout_height="117dp"
+        android:src="@drawable/_5vbfs9bhr901"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

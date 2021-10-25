@@ -3,11 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Programacion/Ciber_retos/reto_ciber1_equipo5/Reto1_Ciber/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
-        <entry key="..\:/Programacion/Ciber_retos/reto_ciber1_equipo5/Reto1_Ciber/app/src/main/res/layout/window_login.xml" value="0.25025641025641027" />
-        <entry key="..\:/Programacion/Reto1_Ciber/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
-        <entry key="..\:/Programacion/Reto1_Ciber/app/src/main/res/layout/activity_register.xml" value="0.24010416666666667" />
-        <entry key="..\:/Programacion/Reto1_Ciber/app/src/main/res/layout/window_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout-w936dp/activity_login.xml" value="0.153125" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/activity_main_pantalla3.xml" value="0.33" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/activity_main_pantalla4.xml" value="0.25" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/activity_pantalla4.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/app_bar_main_activity_pantalla3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/content_main_activity_pantalla3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/fragment_gastos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/fragment_historial.xml" value="0.33" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/fragment_perfil.xml" value="0.14" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/nav_header_main_activity_pantalla3.xml" value="0.5" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/layout/switch_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/menu/main_activity_pantalla3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Users/CIBER/AndroidStudioProjects/Proyecto1GIIF/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
       </map>
     </option>
   </component>
