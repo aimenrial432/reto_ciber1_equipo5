@@ -10,22 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto1GIIF">
         <activity
+            android:name=".Login_activity"
+            android:exported="true" />
+        <activity
             android:name=".MainPantalla5Activity"
             android:exported="true" />
         <activity
             android:name=".MainPantalla4bActivity"
             android:exported="true" />
         <activity
-            android:name=".MainPantalla4Activity"
+            android:name=".Main_Empleado"
             android:exported="true" />
         <activity
-            android:name=".MainPantalla3a2Activity"
+            android:name=".Insert_Dieta"
             android:exported="true" />
         <activity
-            android:name=".MainPantalla3a1Activity"
+            android:name=".Insert_Gasto"
             android:exported="true" />
         <activity
-            android:name=".MainPantalla3Activity"
+            android:name=".Insert_main_Gasto"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

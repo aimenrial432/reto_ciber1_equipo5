@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:visibility="visible"
-    tools:context=".MainPantalla3Activity">
+    tools:context=".Insert_main_Gasto">
 
     <TextView
         android:id="@+id/Pantalla3_Texto"
@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button5_Pantalla3" />
 
     <ImageView
-        android:id="@+id/Pantalla3_Imagen"
+        android:id="@+id/insertmG_img_logo"
         android:layout_width="160dp"
         android:layout_height="152dp"
         android:visibility="visible"

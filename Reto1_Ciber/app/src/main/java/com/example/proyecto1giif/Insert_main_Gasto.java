@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainPantalla3a2Activity extends AppCompatActivity {
+public class Insert_main_Gasto extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_pantalla3a2);
+        setContentView(R.layout.insert_main_gasto);
     }
 }
