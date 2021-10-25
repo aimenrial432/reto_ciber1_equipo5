@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insert_Dieta">
+
+    <ImageView
+        android:id="@+id/insertD_img_logo"
+        android:layout_width="150dp"
+        android:layout_height="159dp"
+        app:layout_constraintBottom_toBottomOf="@+id/insertD_tv_copy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/screenshot_3" />
+
+    <EditText
+        android:id="@+id/insertD_et_fechIni"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Fecha_inicio"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <EditText
+        android:id="@+id/insertD_et_fechfin"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Fecha_fin"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <TextView
+        android:id="@+id/insertD_tv_country"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:text="Pais"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <TextView
+        android:id="@+id/insertD_tv_city"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:text="Ciudad"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <TextView
+        android:id="@+id/insertD_tv_total"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:text="Gasto Total"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <Button
+        android:id="@+id/insertD_bt_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="@+id/insertD_tv_copy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <Button
+        android:id="@+id/insertD_bt_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducir"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/insertD_tv_copy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788"
+        app:strokeColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/insertD_tv_copy"
+        android:layout_width="363dp"
+        android:layout_height="25dp"
+        android:text="© 2021 Empresa GIIF. Todos los derechos reservados."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
