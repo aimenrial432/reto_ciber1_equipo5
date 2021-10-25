@@ -3,6 +3,7 @@ package com.example.gestion_gastos_beta;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 
@@ -20,4 +21,20 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(registro);
 
     }
+
+    public void comprubaLogin() {
+
+        ItemsDBOpenHelper wggbt = new ItemsDBOpenHelper(this);
+
+        SQLiteDatabase db = wggbt.getWritableDatabase();
+
+        if (wggbt != null) {
+
+            System.out.println("La base de datos existe pero no tiene tablas");
+            wggbt.close();
+
+        }
+
+    }
+
 }

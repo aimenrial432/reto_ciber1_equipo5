@@ -1,6 +1,5 @@
 drop database if exists giif_v3;
 
-
 create database giif_v3;
 
 use giif_v3;
@@ -14,6 +13,7 @@ create table Empleados (
     Password_hash varchar(255) not null,
     Nombre varchar(50) not null,
     Apellido varchar(50) not null,
+    e_mail varchar(250) unique not null,
     Departamento_Id int,
     Id_rol int
 
