@@ -10,15 +10,15 @@ create table bda_Empleados (
 
 	
 	Id_user int,
-    DNI varchar(9),
+    	DNI varchar(9),
 	Nombre varchar(50) not null,
-    Apellido varchar(50) not null,
+    	Apellido varchar(50) not null,
 	e_mail varchar(250) not null,
-    Username varchar(50) not null,
-    Password_hash varchar(255) not null,
-    Fecha_reg datetime,
-    Departamento_Id int not null,
-    Id_rol int not null
+    	Username varchar(50) not null,
+    	Password_hash varchar(255) not null,
+    	Fecha_reg datetime,
+   	Departamento_Id int not null,
+    	Id_rol int not null
 
 );
 
