@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import Wggt_conexion.ItemsDBOpenHelper;
 
-public class Login_activity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
