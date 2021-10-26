@@ -50,10 +50,10 @@ begin
     declare correo varchar(100);
     declare url varchar(100);
     
-    set num=(select id_empleado from bda_Empleados having max(id_empleado));
-    set usuario=(select Username from bda_Empleados having max(id_empleado));
-    set contra_hash=(select Password_hash from bda_Empleados having max(id_empleado));
-    set correo=(select e_mail from bda_Empleados having max(id_empleado));
+    set num=(select id_user from bda_Empleados having max(id_user));
+    set usuario=(select Username from bda_Empleados having max(id_user));
+    set contra_hash=(select Password_hash from bda_Empleados having max(id_user));
+    set correo=(select e_mail from bda_Empleados having max(id_user));
     set url="http://www.ciber_wordpress.com";
     
     insert into wggbt_users (ID, user_login, user_pass, user_nicename, user_email, user_url, user_registered, user_status, display_name) values
@@ -63,36 +63,23 @@ begin
 end $$
 delimiter ;
 
+drop trigger if exists set_fecha;
+delimiter $$
 
-select user_login from wggbt_users having max(ID);
-
-delete from bda_Empleados where Id_rol=2;
-
-select substring(user_email, locate(user_email, ".")+1 ) from wggbt_users having  max(ID);
-
-insert into bda_Empleados  values (
-	(select generar_dni()),
-    'Piko',
-    'Palos',
-    'piko.palos@wordpress',
-    'user_piko',
-    sha1('Pass_piko123'),
-    now(),
-    2,
-    2
-
-);
-
-create table puto_email (
-
-	id_email int primary key auto_increment,
-    email varchar (100)
+create trigger set_fecha after insert on wggbt_users for each row
+begin
+	declare fecha datetime;
+    set fecha=(select user_registered from wggbt_users having max(ID));
+    
+    update bda_Empleados set Fecha_reg=fecha where Id_user=last_insert_id();
 
 
-);
 
-insert into puto_email (email) values ('oier.garcia@maristak.com');
+end $$
+delimiter ;
 
-select * from puto_email;
+
+
+INSERT INTO bda_Empleados (DNI, Nombre, Apellido, e_mail, Username, Password_hash, Departamento_Id, Id_rol ) VALUES ('7899t', 'prueba', 'prueba', 'prueba@prueba.com', 'user_prueba', '$2y$10$Sw0Ouk1lf5okOMVIqONL4udD7OxArqowENY1LTJGV/tk9Ut8aeUf6', 2, 2);
 
 

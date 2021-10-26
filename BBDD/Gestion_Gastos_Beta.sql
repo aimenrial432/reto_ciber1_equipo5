@@ -8,7 +8,9 @@ use Gestion_Gastos_Beta;
 
 create table bda_Empleados (
 
-    DNI varchar(9) primary key,
+	
+	Id_user int,
+    DNI varchar(9),
 	Nombre varchar(50) not null,
     Apellido varchar(50) not null,
 	e_mail varchar(250) not null,
@@ -19,6 +21,10 @@ create table bda_Empleados (
     Id_rol int not null
 
 );
+
+drop table bda_Empleados;
+
+alter table bda_Empleados add primary key(Id_user, DNI);
 
 -- Creacion de las nuevas tablas para la base de datos-----------------
 
@@ -158,6 +164,7 @@ alter table bda_Transporte add foreign key (Gasto_Id) references bda_Gastos(Gast
 
 -- El siguiente insert pertenece al admin por lo tanto se hace por separado ----
 insert into bda_Empleados values (
+	null,
 	"78999287Y",
     "Admin",
     "Wordpress",
@@ -170,6 +177,9 @@ insert into bda_Empleados values (
 
 );
 
+select * from bda_Empleados;
+
+alter table bda_Empleados AUTO_INCREMENT=1;
 
 
 
