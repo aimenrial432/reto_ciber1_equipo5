@@ -9,8 +9,6 @@ import Wggt_conexion.ItemsDBOpenHelper;
 
 public class Login_activity extends AppCompatActivity {
 
-    private SQLiteDatabase database_gestion;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,17 +19,16 @@ public class Login_activity extends AppCompatActivity {
     }
 
 
+    public void check_con() {
 
-    ItemsDBOpenHelper dbHelper = new ItemsDBOpenHelper(this);
-    database_gestion = dbHelper.getWritableDatabase();
+        ItemsDBOpenHelper dbHelper = new ItemsDBOpenHelper(this);
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
 
-    if(database_gestion!=null)
+        if (db != null) {
 
-    {
-
-        System.out.println("La base de datos existe: Conexion Establecida");
+            System.out.println("La base de datos existe: Conexion Establecida");
+        }
 
     }
 
-}
 }
