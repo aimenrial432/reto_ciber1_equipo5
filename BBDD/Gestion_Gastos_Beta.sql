@@ -2,29 +2,32 @@
 
 use Gestion_Gastos_Beta;
 
+SET FOREIGN_KEY_CHECKS=0; -- La siguiente sentencia permite crear foreign keys una vez creada la table padre
+
 -- Se crea la tabla empleados a partir de la de wggbt_users
+
+
 
 -- Tabla Empleados----------------
 
 create table bda_Empleados (
 
 	
-	Id_user int,
-    	DNI varchar(9),
-	Nombre varchar(50) not null,
+		Id_user int primary key auto_increment,
+    	DNI varchar(9) unique not null,
+		Nombre varchar(50) not null,
     	Apellido varchar(50) not null,
-	e_mail varchar(250) not null,
+		E_mail varchar(250) not null,
     	Username varchar(50) not null,
     	Password_hash varchar(255) not null,
     	Fecha_reg datetime,
-   	Departamento_Id int not null,
+		Departamento_Id int not null,
     	Id_rol int not null
 
 );
+alter table bda_Empleados add foreign key (Id_rol) references bda_Roles(Id_rol);
+alter table bda_Empleados add foreign key (Departamento_Id) references bda_Departamentos(Departamento_Id);
 
-drop table bda_Empleados;
-
-alter table bda_Empleados add primary key(Id_user, DNI);
 
 -- Creacion de las nuevas tablas para la base de datos-----------------
 
@@ -33,19 +36,26 @@ alter table bda_Empleados add primary key(Id_user, DNI);
 create table bda_Roles (
 	Id_rol int auto_increment primary key,
     Rol varchar(20) not null
+    
 
 );
+
+
 
 
 -- Tabla conexiones--------------------
 
 create table bda_Conexiones (
 	
-    DNI varchar(9),
+    Id_user int,
     Fecha datetime not null,
     Ip varchar(50) not null
 
 );
+
+
+alter table bda_Conexiones add primary key (Fecha);
+alter table bda_Conexiones add foreign key (Id_user) references bda_Empleados(Id_user);
 
 -- Tabla Departamentos----------------
 
@@ -179,9 +189,11 @@ insert into bda_Empleados values (
 
 select * from bda_Empleados;
 
-alter table bda_Empleados AUTO_INCREMENT=1;
+delete from wggbt_users where ID=15;
+
+alter table wggbt_users AUTO_INCREMENT=1;
 
 
-
+select * from wggbt_users;
 
 

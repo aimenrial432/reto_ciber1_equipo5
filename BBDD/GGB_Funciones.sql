@@ -80,6 +80,5 @@ delimiter ;
 
 
 
-INSERT INTO bda_Empleados (DNI, Nombre, Apellido, e_mail, Username, Password_hash, Departamento_Id, Id_rol ) VALUES ('7899t', 'prueba', 'prueba', 'prueba@prueba.com', 'user_prueba', '$2y$10$Sw0Ouk1lf5okOMVIqONL4udD7OxArqowENY1LTJGV/tk9Ut8aeUf6', 2, 2);
 
 
