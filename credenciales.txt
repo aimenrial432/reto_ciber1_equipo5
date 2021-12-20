@@ -1,0 +1,17 @@
+Credenciales
+
+IP del servidor: 10.122.27.95
+Ruta a la pagina web: https:10.122.27.95
+
+Conexion a SSH usuario:root contraseña:Maristak2122
+
+Credenciales aplicación web:
+
+Administrador wordpress
+Usuario: Admin_wpG5 Contrseña: #CiberWordpress123
+
+Administrador aplicación:
+admin_ciber #Adminpass123
+
+Usuario aplicación:
+user_ciber #Userpass123
