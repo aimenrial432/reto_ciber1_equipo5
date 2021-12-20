@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.giiffinal">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/giificono"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/giificono"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MostrarDatos"
+            android:exported="false" />
+        <activity
+            android:name=".Proyectos"
+            android:exported="false" />
+
+        <activity
+            android:name=".RecyclerViewAdaptador"
+            android:exported="false" />
+        <activity
+            android:name=".Acerca_de"
+            android:exported="false" />
+        <activity
+            android:name=".Mas4"
+            android:exported="false" />
+        <activity
+            android:name=".Menos4"
+            android:exported="false" />
+        <activity
+            android:name=".Fichar"
+            android:exported="false" />
+        <activity
+            android:name=".Tarjetas"
+            android:exported="false" />
+        <activity
+            android:name=".Editar"
+            android:parentActivityName=".Gestion_usuarios" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Gestion_usuarios" />
+
+        <activity
+            android:name=".Gestion_usuarios"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_principal"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".Pantalla_de_carga"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

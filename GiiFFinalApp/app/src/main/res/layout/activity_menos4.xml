@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/nn"
+    android:layout_height="match_parent"
+    tools:context=".Menos4">
+
+    <EditText
+        android:id="@+id/efechainicio2"
+        android:layout_width="184dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Escoge tu fecha"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <ImageView
+        android:id="@+id/Imagen_Pantalla3a2"
+        android:layout_width="96dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_giif_removebg_preview" />
+
+    <EditText
+        android:id="@+id/Ciudad_Pantalla3a2"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Ciudad"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <EditText
+        android:id="@+id/Pais_Pantalla3a2"
+        android:layout_width="340dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Pais"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394" />
+
+    <EditText
+        android:id="@+id/Gasto_Pantalla3a2"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Gasto total"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <Button
+        android:id="@+id/volver_Pantalla3a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <Button
+        android:id="@+id/introducir_Pantalla3a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducir"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788"
+        app:strokeColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/derechos_Pantalla3a2"
+        android:layout_width="363dp"
+        android:layout_height="25dp"
+        android:text="© 2021 Empresa GIIF. Todos los derechos reservados."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
+
+    <EditText
+        android:id="@+id/efechafin2"
+        android:layout_width="184dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Escoge tu fecha"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <Button
+        android:id="@+id/fechainicio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha inicio"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Button
+        android:id="@+id/fechafin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha fin"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_Pantalla3a2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+</androidx.constraintlayout.widget.ConstraintLayout>

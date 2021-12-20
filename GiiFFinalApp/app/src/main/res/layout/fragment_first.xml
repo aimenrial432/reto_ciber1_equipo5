@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/nym"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".FirstFragment">
+
+<!-- TODO: Update blank fragment layout -->
+<ImageView
+    android:id="@+id/imagen_Pantalla4"
+    android:layout_width="133dp"
+    android:layout_height="118dp"
+    app:layout_constraintBottom_toBottomOf="@+id/derechos_pantalla4"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0"
+    app:srcCompat="@drawable/logo_giif_removebg_preview" />
+
+<Button
+    android:id="@+id/gestionusuario_Pantalla4"
+    android:layout_width="178dp"
+    android:layout_height="140dp"
+    android:text="Gestión usuario"
+    android:background="@color/purple_700"
+    android:textColor="#ffffff"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.068"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.292"
+    tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/acercade_pantalla4"
+        android:layout_width="177dp"
+        android:layout_height="140dp"
+        android:text="Acerca de"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626" />
+
+    <TextView
+    android:id="@+id/texto_Pantalla4"
+    android:layout_width="221dp"
+    android:layout_height="37dp"
+    android:text="MENÚ PRINCIPAL"
+    android:textAlignment="center"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="@+id/derechos_pantalla4"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_pantalla4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <TextView
+        android:id="@+id/derechos_pantalla4"
+        android:layout_width="349dp"
+        android:layout_height="21dp"
+        android:text="© 2021 Empresa GIIF. Todos los derechos reservados."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+    android:id="@+id/Usuario"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nombre de Usuario"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.055"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.022" />
+
+<Button
+    android:id="@+id/fichar_char"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="FICHAR"
+    android:background="@color/purple_700"
+    android:textColor="#ffffff"
+    app:layout_constraintBottom_toBottomOf="@+id/derechos_pantalla4"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.049"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/pro_p4"
+        android:layout_width="177dp"
+        android:layout_height="140dp"
+        android:text="proyectos"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <Button
+        android:id="@+id/tarjetas"
+        android:layout_width="177dp"
+        android:layout_height="140dp"
+        android:text="TARJETAS"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@+id/derechos_pantalla4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63" />
+</androidx.constraintlayout.widget.ConstraintLayout>

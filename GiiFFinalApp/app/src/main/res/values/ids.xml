@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Transporte_Pantalla3a" type="id" />
+    <item name="FHTexto_Pantalla3a" type="id" />
+    <item name="textView7" type="id" />
+    <item name="button5_Pantalla3a" type="id" />
+    <item name="button4_Pantalla3a" type="id" />
+    <item name="button3_Pantalla3a" type="id" />
+    <item name="Pantalla3a_Imagen" type="id" />
+    <item name="Parking_Pantalla3a" type="id" />
+    <item name="Parkingtexto_Pantalla3a" type="id" />
+    <item name="Peaje_Pantalla3a" type="id" />
+    <item name="PeajeTexto_Pantalla3a" type="id" />
+    <item name="Distancia_Pantalla3a" type="id" />
+    <item name="Distanciatexto_Pantalla3a" type="id" />
+    <item name="Transportetexto_Pantalla3a" type="id" />
+    <item name="FH_Pantalla3" type="id" />
+</resources>
